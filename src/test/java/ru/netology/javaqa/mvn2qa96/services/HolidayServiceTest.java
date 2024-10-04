@@ -22,7 +22,7 @@ public class HolidayServiceTest {
 
         HolidayService service = new HolidayService();
 
-        int actual = service.calculate(expenses,threshold,income);
+        int actual = service.calculate(expenses, threshold, income);
 
         Assertions.assertEquals(expected, actual);
     }
